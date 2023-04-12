@@ -1,10 +1,19 @@
 Fusion file names:
 
 
-
 MAIN CNTRL v01
 
 schematic:	MAIN CNTRL_v3 v8
 board:		MAIN_CNTRL_v3_v217
-3D PCB:	MAIN_CNTRL_v3 v140
+3D PCB:		MAIN_CNTRL_v3 v140
 screenshot:	MAIN_CNTRL_v3 v140
+
+
+
+MAIN CNTRL V02
+
+schematic:	MAIN_CNTRL_v2_v166
+board:		MAIN CNTRL_v2 v183
+3D PCB:		MAIN CNTRL_v2 v14
+screenshot:	MAIN CNTRL_v2 v14
+
