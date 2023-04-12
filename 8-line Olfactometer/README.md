@@ -1,5 +1,4 @@
 # 8-line Olfactometer
-# 8-line Olfactometer
 
 ## updates for version 2:
 
