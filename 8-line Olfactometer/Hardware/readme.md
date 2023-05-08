@@ -11,8 +11,7 @@ to make a single 8-line unit:
 ## updates for version 2:
 
 
-### main manifold:
-- mounting holes for main plate on both sides
-
-### main manifold cover:
-- 0.01" decrease in length (screw holes are now symmetric)
+- **main manifold:**
+  - mounting holes for main plate on both sides
+- **main manifold cover:**
+  - 0.01" decrease in length (screw holes are now symmetric)
