@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-05-09T21:06:37Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Electronics Design 8-MC 2021-08-18 v7 v1"
+        },
+        "Owner": "Shannon Toole <tooles01@nyu.edu>",
+        "Size": {
+            "X": 68.582731,
+            "Y": 68.582731
+        }
+    }
+}
