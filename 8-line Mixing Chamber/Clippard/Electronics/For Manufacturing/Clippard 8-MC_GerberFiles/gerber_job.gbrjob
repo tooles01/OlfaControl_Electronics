@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-05-09T19:02:20Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Clippard 8-MC board v30"
+        },
+        "Owner": "Shannon Toole <tooles01@nyu.edu>",
+        "Size": {
+            "X": 75.184,
+            "Y": 75.184
+        }
+    }
+}
