@@ -1,4 +1,6 @@
-# 8-line Olfactometer
+# 8-line Olfactometer: Electronics
+
+![image](images/MAIN CNTRL 3D PCB.png)
 
 ## updates for version 2:
 
