@@ -1,5 +1,7 @@
 # 8-line Olfactometer
 
+![image](images/MAIN_CNTRL_3D_PCB.png)
+
 ## updates for version 2:
 
 ### power:
