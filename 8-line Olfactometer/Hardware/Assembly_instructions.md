@@ -1,4 +1,4 @@
-## 1: main manifold to top cover (with o-ring)
+## main manifold to top cover (with o-ring)
 
 - (x1) Straight Adapter, for 1/4" Tube OD x 1/8 NPT Male
 - (x1) main manifold
@@ -8,9 +8,9 @@
 - (x10) 4-40 washer
 
 <br>
-1a) Connect input fitting to main manifold.
+Screw input fitting into main manifold.
 <br>
-1b) Fit o-ring into main manifold groove. Place top cover on top of main manifold. Secure with screws & washers.
+Fit o-ring into main manifold groove. Place top cover on top of main manifold. Secure with screws & washers.
 
 <br><br>
 
@@ -22,20 +22,7 @@
 - (x16) 4-40 x 5/8" screw
 
 <br>
-3a) Connect proportional valves to main manifold
-
-<br><br>
-
-
-## mounting brackets
-
-- (x2) mounting brackets
-- (x4) 4-40 x 1/2" screw
-
-<br>
-2a) Attach mounting brackets to main manifold
-<br>
-2b) Mount main manifold (for convenience for rest of assembly)
+Connect proportional valves to main manifold.
 
 <br><br>
 
@@ -46,7 +33,7 @@
 - (x3) 4-40 x 1/4" screw
 
 <br>
-Attach main plate to main manifold
+Attach main plate to main manifold using 4-40 x 1/4" screws.
 
 <br><br>
 
@@ -68,16 +55,45 @@ Insert the luer barb into the other end of the tubing.
 - (x8) flow sensors
 - (x8) o-rings
 - (x16) 4-40 x 7/8" screw
+- (optional): (x8) 4-40 x 5/8" screws, (x8) 4-40 hex nuts
 
 
 <br>
 Insert flow sensor input (P1) through the main manifold cover (o-ring groove facing away from the flow sensor). Slide o-ring onto the end of the flow sensor (same side as the o-ring groove).
-<br>
-Drop (x2) 4-40 x 7/8" screws through the main manifold.
-<br>
-Fit the flow sensor into place (using the header pin slot in the main plate).
-<br>
-While holding the input (P1) of the flow sensor flush to the main manifold, secure by tightening the screws through the main manifold into the main manifold cover. (Might have to push the main manifold cover up (towards the main manifold) until the screws grab on.)
-
+<br><br>
+Drop (x2) 4-40 x 7/8" screws through the main manifold. Fit the flow sensor input into the main manifold (header pins should slide through the slot in the main plate).
+<br><br>
+While securely holding the input (P1) of the flow sensor flush to the main manifold, secure by tightening the screws through the main manifold into the main manifold cover.
+<br><br><br>
+Secure flow sensors to main plate using 4-40 x 1/2" screws and hex nuts.
 
 <br><br>
+
+
+## mounting brackets
+
+- (x2) mounting brackets
+- (x4) 4-40 x 1/2" screw
+
+<br>
+Attach mounting brackets to main manifold
+<br>
+Mount main manifold (for convenience for rest of assembly)
+
+<br><br>
+
+
+## vial holders
+
+- (x4) vial holders
+- (x4) 4-40 heat set inserts
+- (x4) 4-40 x 1/4" screws
+
+<br>
+Install heat inserts into vial holders.
+<br><br>
+Secure vial holders to main plate with screws.
+
+<br><br>
+
+
