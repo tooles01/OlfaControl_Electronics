@@ -1,3 +1,9 @@
+# 8-line Olfactometer Hardware
+
+<p>
+  <img src="images/Assembly_Inventor2023.png">
+</p>
+
 # Parts to be manufactured
 
 to make a single 8-line unit:
