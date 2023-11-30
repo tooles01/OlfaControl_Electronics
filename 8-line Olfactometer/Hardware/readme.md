@@ -1,7 +1,7 @@
 # 8-line Olfactometer Hardware
 
-<p>
-  <img src="images/Assembly_Inventor2023.png">
+<p align="center">
+  <img src="images/Assembly_Inventor2023.png" width="50%">
 </p>
 
 # Parts to be manufactured
