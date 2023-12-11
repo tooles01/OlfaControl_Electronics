@@ -49,8 +49,13 @@ Cut a ~1" piece of tubing. Slide the end onto the output (P2) of the flow sensor
 <br><br>
 
 - (x8) o-rings
+- (x8) main manifold cover
 - (x16) 4-40 x 7/8" screw
-- (x8) 4-40 x 3/8" screws, (x8) 4-40 hex nuts
+
+<br>
+
+- (x8) 4-40 x 3/8" screws
+- (x8) 4-40 hex nuts
 
 
 <br>
