@@ -39,7 +39,7 @@ Attach main plate to main manifold using 4-40 x 1/4" screws.
 
 ## Flow sensors
 
-#### Output tubing
+### Output tubing
 - (x8) flow sensors
 - 1/4" OD 1/8" ID tubing
 - (x8) male luer to 1/8" barb
@@ -48,33 +48,33 @@ Attach main plate to main manifold using 4-40 x 1/4" screws.
     <img src="images/images_assembly/flow_sensor_01.jpg" width="20%">
 </p>
 
-<br>
 Cut a ~1" piece of tubing. Slide the end onto the output (P2) of the flow sensor. Insert the luer barb into the other end of the tubing.
 <br>
 <br><br>
 
-#### Input
+### Input Connection
 - (x8) o-rings
 - (x8) main manifold cover
 - (x16) 4-40 x 7/8" screw
 
-<br>
-Insert flow sensor input (P1) through the main manifold cover (with the o-ring groove facing away from the flow sensor). Slide o-ring onto the end of the flow sensor (same side as the o-ring groove).
-
 <p align="center">
-    <img src="images/images_assembly/flow_sensor_02.jpg>" width=40%>
+    <img src="images/images_assembly/flow_sensor_02.jpg" width="30%">
 </p>
 
+Insert flow sensor input (P1) through the main manifold cover (with the o-ring groove facing away from the flow sensor). Slide o-ring onto the end of the flow sensor (same side as the o-ring groove).
 <br><br>
-Drop (x2) 4-40 x 7/8" screws through the main manifold. Fit the flow sensor input into the main manifold (header pins should slide through the slot in the main plate).
+
+<p align="center">
+    <img src="images/images_assembly/flow_sensor_03.jpg" width=30%>
+</p>
+
+Drop (x2) 4-40 x 7/8" screws through the top of hte main manifold. Fit the flow sensor input into the main manifold (header pins should slide through the slot in the main plate).
 <br><br>
 While securely holding the input (P1) of the flow sensor flush to the main manifold, secure the screws into the main manifold cover.
-
-<p align="center">
-    <img src="images/images_assembly/flow_sensor_03.jpg>" width=20%>
-</p>
-
+<br>
 <br><br>
+
+### Secure to main plate
 
 - (x8) 4-40 x 3/8" screws
 - (x8) 4-40 hex nuts
