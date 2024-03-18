@@ -1,19 +1,32 @@
 ## Main manifold to top cover (with o-ring)
 
-- (x1) Straight Adapter, for 1/4" Tube OD x 1/8 NPT Male
 - (x1) main manifold
 - (x1) top cover
-- (x1) o-ring
+- (x1) o-ring (-051)
 - (x10) 4-40 x 1/4" screw
 - (x10) 4-40 washer
+- (x1) Straight Adapter, for 1/4" Tube OD x 1/8 NPT Male
 
 <br>
+Fit o-ring into main manifold groove.
+
+<br>
+<p align="center">
+    <img src="images/images_assembly/main_manifold_01.jpg" width="50%">
+</p>
+Place top cover on top of main manifold. Secure with 4-40 screws & washers.  
+
+<br>
+<p align="center">
+    <img src="images/images_assembly/main_manifold_02.jpg" width="50%">
+</p>
 Screw input fitting into main manifold.
+
 <br>
-Fit o-ring into main manifold groove. Place top cover on top of main manifold. Secure with screws & washers.
-
+<p align="center">
+    <img src="images/images_assembly/main_manifold_03.jpg" width="20%">
+</p>
 <br><br>
-
 
 ## Proportional valves to main manifold
 
