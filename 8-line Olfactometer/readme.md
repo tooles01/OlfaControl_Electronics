@@ -1,8 +1,17 @@
 # 8-line Olfactometer Hardware
 
 <p align="center">
-  <img src="images/Assembly_Inventor2023.png" width="50%">
+  <img src="images/Assembly_Inventor2023.png" width="30%">
 </p>
+
+<br>
+
+<p align="left">
+  <img src="images/olfa_front.jpg" width="49%" align>
+  <img src="images/olfa_back.jpg" width="49%" align="right">
+</p>
+
+<br><br>
 
 # Parts to be manufactured
 
