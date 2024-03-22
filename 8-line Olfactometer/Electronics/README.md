@@ -2,6 +2,17 @@
 
 ![image](images/MAIN_CNTRL_3D_PCB.png)
 
+
+## PCB Assembly
+- Attach (x2) heat sinks to VR1 and VR2 using (x2) 4-40 x 1/4" screw and hex nut
+- Solder Arduino header pins onto PCB
+- Set I2C address on S1 (full dictionary of addresses is currently stored in master.ino source code)
+- Connect master Arduino
+    - Make a wire to connect from J2 (4pos Molex female) to master Arduino pins (Dupont male wires). Connect to SDA, SCL, GND and GND.
+    - (Mount master Arduino on top using Arduino holder 3D printed part)
+
+<br><br><br>
+
 ## updates for version 2:
 
 ### power:
