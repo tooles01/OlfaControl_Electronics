@@ -2,11 +2,16 @@
 
 ## Full System
 <p align="center">
+  <img src="images/olfa_full.jpg" width="40%">
+</p>
+
+
+<p align="center">
   <img src="images/Full%20System%20Schematic-clean%20air.jpg" width="40%">
   <img src="images/Full%20System%20Schematic-odor%20delivery.jpg" width="40%">
 </p>
 
-## Mixing Chamber
+### Mixing Chamber
 
 <!--
 top | bottom
@@ -21,7 +26,7 @@ top | bottom
 </p>
 
 
-## Olfactometer
+### Olfactometer
 
 <img src="images/8-line%20olfactometer%20unit.png">
 
