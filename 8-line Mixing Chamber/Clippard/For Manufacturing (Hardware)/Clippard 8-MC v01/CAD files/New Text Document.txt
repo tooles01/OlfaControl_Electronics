@@ -1,0 +1,12 @@
+5/13/2024:
+
+
+v01 (original) design export:
+	Clippard 8-MC heart_v01.step
+	Clippard 8-MC heart_v01.ipt
+	Clippard 8-MC cover_v01.step
+	Clippard 8-MC cover_v01.ipt
+
+v01 remake in Inventor:
+	x_Clippard 8-MC heart_v01.ipt
+	x_Clippard 8-MC heart_v01.ipt (this derives from Clippard 8-MC heart v2.ipt, should fix this)

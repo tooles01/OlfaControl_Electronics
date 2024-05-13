@@ -7,8 +7,8 @@
 <br>
 
 <p align="left">
-  <img src="For Manufacturing (Hardware)/images/Clippard_8-MC_heart_v01.png" width="40%" align>
-  <img src="For Manufacturing (Hardware)/images/Clippard_8-MC_cover_v01.png" width="38%" align="right">
+  <img src="For Manufacturing (Hardware)/images/Clippard 8-MC heart v2A.png" width="35%" align>
+  <img src="For Manufacturing (Hardware)/images/Clippard 8-MC cover v2A.png" width="32%" align="right">
 </p>
 
 <br><br>
@@ -20,4 +20,14 @@ to make a single unit:
 - (x1) Clippard 8-MC cover
 - (x1) Clippard 8-MC heart
 
+
+<br><br>
+
+## updates for version 2:
+- **Clippard 8-MC cover**
+    - Slightly different location of PCB mounting holes
+- **Clippard 8-MC heart**
+    - Removed bottom depression, outlet changed from a male thread to an NResearch (1/4-28) female hole (matches the vial inlet holes)
+    - Odor (vial) inlet ID changed
+    - Odor input hole (from the bottom) was previously not aligned with its connecting inlet hole (horizontal) - tied geometries together
 
