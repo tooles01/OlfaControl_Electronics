@@ -1,9 +1,5 @@
 # Flow Sensor Calibration
 
-Last updated xx/xx/xxxx -ST
-
-
-#
 To ensure accurate flow readings, each flow sensor should be individually calibrated before use.  
 
 The calibration table for each flow sensor csv file containing flow rates (in SCCM) and the corresponding flow sensor value (as an integer from 0-1023).
@@ -13,7 +9,7 @@ The calibration table for each flow sensor csv file containing flow rates (in SC
 <p align="center">
 Example calibration table:
 <p align="center">
-    <img src="images/images_assembly/example_calibration_table.png" width="30%">
+    <img src="images/images_assembly/example_calibration_table.jpg" width="30%">
 </p>
 
 
@@ -66,15 +62,14 @@ Click "Create File". (This will create the file and set the flow sensor to "debu
 <p align="center">
     <img src="images/images_assembly/flow_calibration_software_03.png" width="80%">
 </p>
+
 <br><br>
 
 ### Calibrate
 
 Physically set the Alicat MFC to the first desired calibration value. (Ideally, the maximum capacity of the flow sensor.) Enter that same value into the "MFC value (sccm)" box.  
 Enter the desired duration of the calibration. (15 seconds is typically sufficient for off-manifold calibrations.)  
-
 <br>
-
 ***Note:** Calibration tables **must** be in descending order, so it is recommended to start calibrating at the max capacity and work down from there. Otherwise, the table will need to be manually sorted once calibration is complete.*  
 <br>  
 
@@ -89,23 +84,24 @@ Once calibration at this flow rate is complete, stats about the flow sensor data
     <img src="images/images_assembly/flow_calibration_software_05.png" width="80%">
 </p>
 
-If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. (Values already written to the file will be displayed in the far right box.)  
+If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. You can also manually enter the value to write to the file, if you'd like to use the median value instead. (Values already written to the file will be displayed in the far right box.)  
 
 (Typically, at a single flow value, I run two 15-second calibrations and save the mean of the second one. If the means of the two calibrations differ by more than 0.5, I would recommend running additional 15-second calibrations until stability is reached.)  
 
+<br>
 
-<br><br><br><br><br>
-After writing this pair, set up and do the next etc etc etvc etcccccccccccccccccccc
+**Repeat for as many values as desired.** (I typically do 10sccm increments.)
 
 
-<br><br><br><br>
-
+<br>
 
 
 
 ## Once complete:
 
-don't forget to change t o.txt afterwords  
-don't forget to change the olfa config file to include these tables  
-don't forget to change the mfc max capacity somewhere  
-make sure you plug into the correct flow sensor spot  
+1. Click "End & Save File"
+2. Go to the calibration table directory, and change the file extension from .csv to .txt. (Ignore any warnings about the file becoming unusable.)
+
+<br>
+
+Don't forget to update your olfa_config file to include the new calibration table!
