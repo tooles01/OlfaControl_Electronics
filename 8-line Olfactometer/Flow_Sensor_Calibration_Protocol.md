@@ -9,7 +9,7 @@ The calibration table for each flow sensor csv file containing flow rates (in SC
 <p align="center">
 Example calibration table:
 <p align="center">
-    <img src="images/images_assembly/example_calibration_table.jpg" width="30%">
+    <img src="images/images_assembly/example_calibration_table.png" width="30%">
 </p>
 
 
