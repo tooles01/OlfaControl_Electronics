@@ -4,6 +4,14 @@
 <p align="center">
   <img src="images/mc_2.jpg" width="50%">
 </p>
+
+<br>
+
+<p align="center">
+  <img src="images/Mixing%20Chamber-side%20view.png" width="40%">
+  <img src="images/Mixing%20Chamber-top%20view.png" width="40%">
+</p>
+
 <br>
 
 <p align="left">
