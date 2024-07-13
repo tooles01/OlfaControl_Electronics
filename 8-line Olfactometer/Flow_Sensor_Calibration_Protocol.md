@@ -9,7 +9,7 @@ The calibration table for each flow sensor csv file containing flow rates (in SC
 <p align="center">
 Example calibration table:
 <p align="center">
-    <img src="images/images_assembly/example_calibration_table.png" width="30%">
+    <img src="images/images_assembly/example_calibration_table - Copy.png" width="30%">
 </p>
 
 
@@ -18,79 +18,116 @@ Example calibration table:
 
 ## Hardware setup
 
-***Note**: With the current flow calibration system, the most efficient way to calibrate flow sensors is prior to installation onto the main manifold. Calibrating while keeping the sensor connected to the manifold is possible, but can be more time consuming due to pressure changes when changing setpoints.*  
+***Note**:* With the current system, the most efficient way to calibrate new flow sensors is prior to installation onto the main manifold. Calibrating while sensors are installed on the manifold can be more time consuming due to pressure changes when changing setpoints, so use your own discretion depending on how many flow sensors need to be calibrated (decide whether it would be more time consuming to take them all off or not)
+
 <br>
 
-**Materials:**
-- (x1) Olfactometer PCB
-- (x1) MFC
-    - 1/8" OD Teflon tubing
-- Flow sensor
-    - 1/8" ID flexible tubing  
+Setup options:  
+
+
+### **A. On Manifold** (Flow sensor still installed on olfactometer manifold)  
+&nbsp;&nbsp;&nbsp;&nbsp;***Recommended when calibrating 1 or 2 flow sensors***  
+&nbsp;&nbsp;&nbsp;&nbsp;Example use: Recalibrating/checking calibration of currently installed flow sensors  
 <br>
 
-**Procedure:**
+The system must be slightly altered for calibration to ensure that the known quantity of air from the Alicat MFC is passing entirely through the flow sensor being calibrated:  
+<br>
 
-Connect the MFC input to an air supply.  
-Connect the MFC output directly to the flow sensor input. (Flow sensor works well with 1/8" ID flexible tubing, which can be slid over 1/8" OD Teflon tubing to make a sufficiently airtight seal for this application).  
+<p align="center">
+    <img src="images/images_assembly/Full System Schematic_flowSensorCalibration.png" width="60%">
+</p>
+
+1. Disconnect the tubing between the Alicat MFC and the mixing chamber, and plug the open fitting. This ensures that the known quantity of air delivered (from the MFC) is all passing through the flow sensor.
+
+2. Disconnect the flow sensor output from the vial. This allows the air to easily pass through the flow sensor. (Easiest way to do this is to twist the needle to disconnect it from the luer fitting on the flow sensor tubing.)
+
+3. Fully open the proportional valve via the olfactometer GUI.
+	- Open the Vial Details popup window.
+	- Select "Enable Manual Options"
+	- In the "Manual Controls" box, enter "255" next to the "Set prop valve" button.
+	- Click "Set prop valve".
+
+
+<p align="center">
+    <img src="images/images_assembly/flow_calibration_software_open_pvalve.PNG" width="80%">
+</p>
+
+<br>
+
+### **B. Off Manifold**  
+&nbsp;&nbsp;&nbsp;&nbsp;***Recommended when calibrating 4+ flow sensors***  
+&nbsp;&nbsp;&nbsp;&nbsp;Example use: New sensors that have not been installed yet
+
+<br>
+
+1. Connect the MFC input to an air supply.  
+2. Connect the MFC output directly to the flow sensor input. (Flow sensor works well with 1/8" ID flexible tubing, which can be slid over 1/8" OD Teflon tubing to make a sufficiently airtight seal for this application).  
 <p align="center">
     <img src="images/images_assembly/flow_calibration_01.jpg" width="50%">
 </p>
 <br>
 
-Connect the flow sensor to the Olfactometer PCB (either directly, or using jumper wires, whichever is most convenient).  
+3. Connect the flow sensor to the Olfactometer PCB (either directly, or using jumper wires, whichever is more convenient).  
 <p align="center">
     <img src="images/images_assembly/flow_calibration_02.jpg" width="45%">
     <img src="images/images_assembly/flow_calibration_03.jpg" width="45%">
 </p>
 
-Connect the Olfactometer PCB to the computer and 24V power supply as usual.  
+4. Connect the Olfactometer PCB to the computer and 24V power supply as usual.  
 <br>
+
+
 
 ## Software
 
 ### Create File
 
-Open the Olfactometer GUI and connect to the device.  
-Open the Vial Details box for the selected flow sensor.  
+1. Open the Olfactometer GUI and connect to the device.  
+2. Open the Vial Details box for the selected flow sensor.  
 <p align="center">
     <img src="images/images_assembly/flow_calibration_software_02.png" width="80%">
 </p>
 
-Confirm/edit the calibration table directory and enter the desired file name.  
-Click "Create File". (This will create the file and set the flow sensor to "debug" mode, if it is not already.)  
+3. Confirm/edit the calibration table directory and enter the desired file name.  
+4. Click "Create File". (This will create the file and set the flow sensor to "debug" mode, if it is not already.)  
 <p align="center">
     <img src="images/images_assembly/flow_calibration_software_03.png" width="80%">
 </p>
 
 <br><br>
 
-### Calibrate
 
-Physically set the Alicat MFC to the first desired calibration value. (Ideally, the maximum capacity of the flow sensor.) Enter that same value into the "MFC value (sccm)" box.  
-Enter the desired duration of the calibration. (15 seconds is typically sufficient for off-manifold calibrations.)  
-<br>
-***Note:** Calibration tables **must** be in descending order, so it is recommended to start calibrating at the max capacity and work down from there. Otherwise, the table will need to be manually sorted once calibration is complete.*  
+## Calibrate
+
+***Note:** Calibration tables **must** be in descending order, so it is recommended to start calibrating at the maximum capacity and work down from there. Otherwise, the table will need to be manually sorted once calibration is complete.*  
+
+
+1. Physically set the Alicat MFC to the first desired calibration value. (Ideally, the maximum capacity of the flow sensor - 200 sccm.) Enter that same value into the "MFC value (sccm)" box.  
+&nbsp;&nbsp;&nbsp;**Note:** If calibrating while flow sensor is installed on the manifold, the Alicat MFC may not be able to reach 200 sccm (due to high impedance within the olfactometer manifold). If this is the case, start calibration at the highest flow rate the Alicat MFC is able to maintain (at least 120 sccm).    
+
+2. Enter the desired duration of the calibration. (15 seconds is typically sufficient for off-manifold calibration, 30 seconds may be necessary for on-manifold calibration.)  
+
 <br>  
 
 <p align="center">
     <img src="images/images_assembly/flow_calibration_software_04.png" width="80%">
 </p>
 
-Click "Start".  
+3. Click "Start".  
 
-Once calibration at this flow rate is complete, stats about the flow sensor data collected during that period will populate the fields in the center of the groupbox. By default, the flow rate and mean value will display in the bottom-right box.  
+4. Once calibration at this flow rate is complete, stats about the flow sensor data collected during that period will populate the fields in the center of the groupbox. By default, the values to write to the calibration files will display in the bottom-right box (flow rate [sccm], mean value [int]).  
 <p align="center">
     <img src="images/images_assembly/flow_calibration_software_05.png" width="80%">
 </p>
 
-If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. You can also manually enter the value to write to the file, if you'd like to use the median value instead. (Values already written to the file will be displayed in the far right box.)  
-
-(Typically, at a single flow value, I run two 15-second calibrations and save the mean of the second one. If the means of the two calibrations differ by more than 0.5, I would recommend running additional 15-second calibrations until stability is reached.)  
+5. If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. You can also manually enter the value to write to the file, if you'd like to use the median value instead. (Values already written to the file will be displayed in the far right box.)  
+&nbsp;&nbsp;- To check if the calibration was okay, check the range of the values collected from the flow sensor. If the range is more than 4, repeated trials are recommended.  
+&nbsp;&nbsp;- For on manifold calibration, when the Alicat MFC value is changed, the pressure within the system can take 1-2 minutes to stabilize, which affects the flow sensor readout.
+&nbsp;&nbsp;- (Typically, at a single flow value, I run two 15-second calibrations and save the mean of the second one. If the means of the two calibrations differ by more than 1 on-manifold, more than 0.5 off-manifold, I would recommend running additional 15-second calibrations until stability is reached.)  
 
 <br>
 
-**Repeat for as many values as desired.** (I typically do 10sccm increments.)
+6. **Repeat for as many values as desired.** (I typically do 10sccm increments, to save time. For more sensitive experiments, 2-5 increments may be more helpful.)
 
 
 <br>
