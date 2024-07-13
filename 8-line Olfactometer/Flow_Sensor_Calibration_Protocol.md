@@ -22,7 +22,7 @@ Example calibration table:
 
 <br>
 
-Setup options:  
+**Setup options:**  
 
 
 ### **A. On Manifold** (Flow sensor still installed on olfactometer manifold)  
@@ -49,7 +49,7 @@ The system must be slightly altered for calibration to ensure that the known qua
 
 
 <p align="center">
-    <img src="images/images_assembly/flow_calibration_software_open_pvalve.PNG" width="80%">
+    <img src="images/images_assembly/flow_calibration_software_open_pvalve.PNG" width="70%">
 </p>
 
 <br>
@@ -122,7 +122,7 @@ The system must be slightly altered for calibration to ensure that the known qua
 
 5. If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. You can also manually enter the value to write to the file, if you'd like to use the median value instead. (Values already written to the file will be displayed in the far right box.)  
 &nbsp;&nbsp;- To check if the calibration was okay, check the range of the values collected from the flow sensor. If the range is more than 4, repeated trials are recommended.  
-&nbsp;&nbsp;- For on manifold calibration, when the Alicat MFC value is changed, the pressure within the system can take 1-2 minutes to stabilize, which affects the flow sensor readout.
+&nbsp;&nbsp;- For on manifold calibration, when the Alicat MFC value is changed, the pressure within the system can take 1-2 minutes to stabilize, which affects the flow sensor readout.  
 &nbsp;&nbsp;- (Typically, at a single flow value, I run two 15-second calibrations and save the mean of the second one. If the means of the two calibrations differ by more than 1 on-manifold, more than 0.5 off-manifold, I would recommend running additional 15-second calibrations until stability is reached.)  
 
 <br>
@@ -139,6 +139,8 @@ The system must be slightly altered for calibration to ensure that the known qua
 1. Click "End & Save File"
 2. Go to the calibration table directory, and change the file extension from .csv to .txt. (Ignore any warnings about the file becoming unusable.)
 
-<br>
+<br><br>
+
+#
 
 Don't forget to update your olfa_config file to include the new calibration table!
