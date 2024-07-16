@@ -2,19 +2,17 @@
 
 To ensure accurate flow readings, each flow sensor should be individually calibrated before use.  
 
-The calibration table for each flow sensor csv file containing flow rates (in SCCM) and the corresponding flow sensor value (as an integer from 0-1023).
+The calibration table for each flow sensor csv file contains flow rates (in SCCM) and the corresponding flow sensor value (as an integer from 0-1023).  
 
 <br>
 
-<p align="center">
-Example calibration table:
+*<p align="center">      *Example calibration table:*  </p>*
 <p align="center">
     <img src="images/images_assembly/example_calibration_table - Copy.png" width="30%">
 </p>
 
-
-<br><br>
-
+<br>
+<br>
 
 ## Hardware setup
 
@@ -94,16 +92,17 @@ The system must be slightly altered for calibration to ensure that the known qua
     <img src="images/images_assembly/flow_calibration_software_03.png" width="80%">
 </p>
 
-<br><br>
+<br>
+<br>
 
 
 ## Calibrate
 
-***Note:** Calibration tables **must** be in descending order, so it is recommended to start calibrating at the maximum capacity and work down from there. Otherwise, the table will need to be manually sorted once calibration is complete.*  
+***Note:** Calibration tables **must** be in descending order, so it is recommended to start calibrating at the maximum capacity and work down from there. Otherwise, the table will need to be manually sorted after completing the calibration.*  
 
 
 1. Physically set the Alicat MFC to the first desired calibration value. (Ideally, the maximum capacity of the flow sensor - 200 sccm.) Enter that same value into the "MFC value (sccm)" box.  
-&nbsp;&nbsp;&nbsp;**Note:** If calibrating while flow sensor is installed on the manifold, the Alicat MFC may not be able to reach 200 sccm (due to high impedance within the olfactometer manifold). If this is the case, start calibration at the highest flow rate the Alicat MFC is able to maintain (at least 120 sccm).    
+&nbsp;&nbsp;&nbsp;**Note:** If calibrating while flow sensor is installed on the manifold, the Alicat MFC may not be able to reach 200 sccm (due to high impedance within the olfactometer manifold). If this is the case, start calibration at the highest flow rate the Alicat MFC is able to maintain (at least 120 sccm for experiments that will go up to 100 sccm).    
 
 2. Enter the desired duration of the calibration. (15 seconds is typically sufficient for off-manifold calibration, 30 seconds may be necessary for on-manifold calibration.)  
 
@@ -120,27 +119,27 @@ The system must be slightly altered for calibration to ensure that the known qua
     <img src="images/images_assembly/flow_calibration_software_05.png" width="80%">
 </p>
 
-5. If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. You can also manually enter the value to write to the file, if you'd like to use the median value instead. (Values already written to the file will be displayed in the far right box.)  
-&nbsp;&nbsp;- To check if the calibration was okay, check the range of the values collected from the flow sensor. If the range is more than 4, repeated trials are recommended.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don't worry about the SCCM flow rate being displayed - this is calculated based on the currently selected calibration table.  
+
+5. Check if the calibration was successful by looking at the range of the values collected from the flow sensor during the calibration. If the range is more than 4, repeated trials are recommended.  
 &nbsp;&nbsp;- For on manifold calibration, when the Alicat MFC value is changed, the pressure within the system can take 1-2 minutes to stabilize, which affects the flow sensor readout.  
 &nbsp;&nbsp;- (Typically, at a single flow value, I run two 15-second calibrations and save the mean of the second one. If the means of the two calibrations differ by more than 1 on-manifold, more than 0.5 off-manifold, I would recommend running additional 15-second calibrations until stability is reached.)  
 
+If the calibration seemed fine, click the "Write" button to write this pair to the calibration file. You can also manually enter the value to write to the file, if you'd like to use the median value instead. (Values already written to the file will be displayed in the far right box.)  
 <br>
 
 6. **Repeat for as many values as desired.** (I typically do 10sccm increments, to save time. For more sensitive experiments, 2-5 increments may be more helpful.)
 
-
 <br>
-
 
 
 ## Once complete:
 
 1. Click "End & Save File"
 2. Go to the calibration table directory, and change the file extension from .csv to .txt. (Ignore any warnings about the file becoming unusable.)
+3. Update the olfa_config file (using any text editor) to include the name of the new calibration table.
 
-<br><br>
-
-#
-
-Don't forget to update your olfa_config file to include the new calibration table!
+*<p align="center">      *Example olfa_config file:*  </p>*
+<p align="center">
+    <img src="images/images_assembly/olfa_config.png" width="30%">
+</p>
