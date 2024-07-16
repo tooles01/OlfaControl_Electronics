@@ -2,7 +2,7 @@
 
 ## Full System
 <p align="center">
-  <img src="images/olfa_full.jpg" width="40%">
+  <img src="images/olfa_full_labeled.png" width="40%">
 </p>
 
 <p align="center">
