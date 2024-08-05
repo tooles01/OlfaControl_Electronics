@@ -1,19 +1,16 @@
 # OlfaControl_Electronics
 
-## Full System
-<p align="center">
-  <img src="images/olfa_full_labeled.png" width="40%">
-</p>
+## Full System Overview
 
-<p align="center">
-  <img src="images/Full System Schematic.png" width="80%">
-</p>
+<p align="center"><img src="images/olfa_full_labeled.png" width="40%"></p>
+<br>
 
-<br><br>
+<p align="center"><img src="images/Full System Schematic.png" width="70%"></p>
+<br>
 
 
 
-## Full System - Simplified:
+#### Simplified:
 
 <p align="center">
   <img src="images/Full%20System%20Schematic_simplified-clean%20air.png" width="40%">
