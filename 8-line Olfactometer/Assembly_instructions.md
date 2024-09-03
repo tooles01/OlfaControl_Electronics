@@ -60,7 +60,6 @@ Cut a ~1" piece of tubing. Slide the end onto the output (P2) of the flow sensor
 
 Insert flow sensor input (P1) through the main manifold cover (with the o-ring groove facing away from the flow sensor). Slide o-ring onto the end of the flow sensor (same side as the o-ring groove).  
 <br>
-
 <p align="center"><img src="images/images_assembly/flow_sensor_03.jpg" width=30%></p>
 
 Drop (x2) 4-40 x 7/8" screws through the top of hte main manifold. Fit the flow sensor input into the main manifold (header pins should slide through the slot in the main plate).  
@@ -74,6 +73,7 @@ While securely holding the input (P1) of the flow sensor flush to the main manif
 - (x8) 4-40 hex nuts
 
 Secure flow sensors to main plate using 4-40 x 3/8" screws and hex nuts. (possibly connect PCB before doing so, to make sure it's all aligned) (They don't need to be super tight, just secure enough to the main plate to make it easier to connect the PCB).  
+<p align="center"><img src="images/images_assembly/mainplate_01.jpg" width="60%"></p>
 <br>
 
 ## Mounting brackets
@@ -93,12 +93,22 @@ Use M8 screws to mount main manifold (for convenience for rest of assembly).
 - (x4) 4-40 x 3/8" screws
 
 Install heat set inserts into vial holders.  
-<p align="center"><img src="images/images_assembly/vial_holder_01.jpg" width="20%"></p>
+<p align="center"><img src="images/images_assembly/vial_holder_00.jpg" width="20%"></p>
 
 Position vial holder flush against main plate and secure with screws.  
-<p align="center"><img src="images/images_assembly/vial_holder_02.jpg" width="30%"></p>
+<p align="center">
+    <img src="images/images_assembly/vial_holder_01.jpg" width="30%">
+    <img src="images/images_assembly/vial_holder_02.jpg" width="30%">
+</p>
 <br>
 
 ## PCB
 
-Connect PCB to flow sensors. Be SUPER careful that all pins are aligned correctly. (If not, flow sensors will burn out).  
+Align flow sensor headers on PCB with flow sensor pins.
+<p align="center"><img src="images/images_assembly/pcb_00.jpg" width="40%"></p>
+
+Carefully slide PCB onto flow sensors.  
+<p align="center"><img src="images/images_assembly/pcb_01.jpg" width="40%"></p>
+
+Make sure that all flow sensor pins are in the correct spot. (If any of the pins are out of place, flow sensors will burn out).  
+<p align="center"><img src="images/images_assembly/pcb_02.jpg" width="40%"></p>
