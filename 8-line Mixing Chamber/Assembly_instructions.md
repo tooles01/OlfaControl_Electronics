@@ -1,14 +1,23 @@
-## top cover to heart
+## Connect cover to heart
 
 - (x1) Clippard 8-MC cover
 - (x1) Clippard 8-MC heart
 - (x4) 10-24 x 1/2" screw
-- (x1) o-ring #227
+- (x1) #227 O-ring
 - (x1) 1/8 NPT Male to 1/4" Tube OD Push-To-Connect Fitting
 
 <br>
-- Fit o-ring into cover. Place top cover on top of heart. Secure with screws.
-- Connect input fitting.
+
+<p align="center"><img src="images/images_assembly/assembly_01_heart_and_cover.jpg" width="60%"></p>
+
+Fit o-ring into cover.  
+<p align="center"><img src="images/images_assembly/assembly_02_cover_and_oring.jpg" width="30%"></p>
+
+Place cover on top of heart. Secure with 10-24 screws. Tighten screws only a little bit at a time, and in random order. (This will ensure o-ring stays in correct position.)  
+<p align="center"><img src="images/images_assembly/assembly_03_assembled.jpg" width="30%"></p>
+
+
+Screw input fitting into cover.
 
 <br><br>
 
