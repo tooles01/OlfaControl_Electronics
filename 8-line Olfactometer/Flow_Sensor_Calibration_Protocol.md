@@ -24,7 +24,7 @@ The calibration table for each flow sensor csv file contains **flow rates** (in 
 The hardware setup must be modified to ensure the entirety of the Alicat MFC output passes through the flow sensor being calibrated.  
 
 <br>
-<p align="center"><img src="images/images_calibration/Full System Schematic_flowSensorCalibration.png" width="70%"></p>
+<p align="center"><img src="images/images_calibration/Full System Schematic_flowSensorCalibration_06.png" width="70%"></p>
 
 1. Disconnect the tubing that connects the Alicat MFC to the mixing chamber, and plug the open fitting. (This ensures that all air from the Alicat MFC passes through the olfactometer manifold.)
 
@@ -91,16 +91,16 @@ The hardware setup must be modified to ensure the entirety of the Alicat MFC out
 
 <p align="center"><img src="images/images_calibration/flow_calibration_software_04.png" width="80%"></p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check if the calibration was successful by looking at the range of values collected from the flow sensor during the calibration. If the range exceeds 4, repeated trials are recommended.  
+5. **Check if the calibration was successful** by looking at the range of values collected from the flow sensor during the calibration. If the range exceeds 4, repeated trials are recommended.  
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Note:** Typically, at a single flow value, I run two 15-second calibrations and save the mean of the second one. If the means of the two calibrations differ by more than **1.0 on manifold** or more than **0.5 off manifold**, I recommend running additional 15-second calibrations until consecutive calibrations have similar values.  (For setup *A: On Manifold*, when the Alicat MFC value is changed, the pressure within the system can take 1-2 minutes to stabilize, which affects the flow sensor readout. This setup typically requires many more consecutive trials until the system has reached stability.)  
 
 <br>
 
-5. If the calibration was successful, click the "Write" button to write this pair to the calibration file. If necessary, you can also manually enter the values to write to the file. (Values already written to the file will be displayed in the far right box.)  
+6. If the calibration was successful, click the "Write" button to write this pair to the calibration file. If necessary, you can also manually enter the values to write to the file. (Values already written to the file will be displayed in the far right box.)  
 
-6. **Repeat for as many values as desired.** (I typically do 10sccm increments, to save time. For more sensitive experiments, 2-5 increments may be more helpful.)
+7. **Repeat for as many values as desired.** (I typically do 10sccm increments, to save time. For more sensitive experiments, 2-5 increments may be more helpful.)
 
 <br>
 

@@ -5,7 +5,7 @@
 <p align="center"><img src="images/olfa_full_labeled.png" width="40%"></p>
 <br>
 
-<p align="center"><img src="images/Full System Schematic.png" width="70%"></p>
+<p align="center"><img src="images/Full System Schematic_11.png" width="70%"></p>
 <br>
 
 
