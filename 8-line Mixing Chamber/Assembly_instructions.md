@@ -26,7 +26,7 @@ Screw input fitting into cover.
 
 - (x1) PCB
 - (x4) Nylon Unthreaded Spacer
-- (x4) 2-56 x 1/4" screw
+- (x4) 2-56 x 1/4" Nylon Pan Head Screw
 
 Place spacers on cover, on top of the holes with the small screw threads.  
 <p align="center"><img src="images/images_assembly/assembly_05_spacers.jpg" width="30%"></p>

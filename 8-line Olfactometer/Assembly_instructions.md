@@ -59,7 +59,6 @@ Cut a ~1" piece of tubing. Slide the end onto the output (P2) of the flow sensor
 <p align="center"><img src="images/images_assembly/flow_sensor_02.jpg" width="30%"></p>
 
 Insert flow sensor input (P1) through the main manifold cover (with the o-ring groove facing away from the flow sensor). Slide o-ring onto the end of the flow sensor (same side as the o-ring groove).  
-<br>
 <p align="center"><img src="images/images_assembly/flow_sensor_03.jpg" width=30%></p>
 
 Drop (x2) 4-40 x 7/8" screws through the top of hte main manifold. Fit the flow sensor input into the main manifold (header pins should slide through the slot in the main plate).  
