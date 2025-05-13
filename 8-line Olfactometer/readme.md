@@ -26,6 +26,46 @@ to make a single 8-line unit:
 
 # Troubleshooting
 
+**Problem:** Inconsistent, "squiggly" odor signal
+
+**Diagnosis:**  Likely something (probably part of the septum) caught in the needle, blocking air flow into the vial
+
+**Solution:** Replace vial input needle
+
+
+##
+**Problem:** Slow odor rise time
+
+**Diagnosis:** Leak
+
+**Solution:** <br>
+- Ensure vial cap is on tightly
+- Check that isolation valve is completely screwed in
+- Replace tubing from vial to mixing chamber
+
+##
+**Problem:** Olfactometer not sending back flow values once turned on
+
+**Solution:** <br>
+If it is sending back slave addresses:
+- Wait 30 seconds or so
+- Click "Get Slave Addresses" 1 or 2 times
+- If still a problem: Turn 24V power off and back on again, and repeat above steps
+
+If it's not sending back slave addresses:
+- Check that PCB is receiving 24V power
+- Check that master Arduino I2C pins are correctly connected
+- Reupload master Arduino code
+
+##
+**Problem:** Zero flow reported, even when proportional valve signal is at max (255)
+
+**Solution:** Replace proportional valve
+
+<!-- Troubleshooting Section as Table-->
+<!--
+# Troubleshooting
+
 ### Hardware/PID testing:
 
 | Problem | Diagnosis | Solution |
@@ -41,3 +81,4 @@ to make a single 8-line unit:
 | ----------- | ----------- |
 | Olfactometer not sending back flow values once turned on | If it is sending back slave addresses: <li>Wait 30 seconds or so</li><li>Click "Get Slave Addresses" 1 or 2 times</li><li>If still a problem: Turn 24V power off and back on again, and repeat above steps</li><br>If it's not sending back slave addresses: <li>Check that PCB is receiving 24V power</li> <li>Check that master Arduino I2C pins are correctly connected</li><li>Re-upload master Arduino code</li>|
 | Zero flow reported from flow sensor, even when proportional valve signal is at max (255) | Replace proportional valve |
+-->
